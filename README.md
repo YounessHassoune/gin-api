@@ -14,17 +14,18 @@ This is a rest api project using Gin and Go created for learning purposes where 
 
 ## Routes 
 
-### User Routes:
+### Product Routes:
 - [ ] GET /products: Retrieve a list of all products.
 - [ ] GET /products/{id}: Retrieve a specific product by its ID.
 - [ ] POST /products: Create a new product.
 - [ ] PUT /products/{id}: Update an existing product.
 - [ ] DELETE /products/{id}: Delete a product.
 ### User Routes:
-- [ ] POST /users/register: Register a new user.
-- [ ] POST /users/login: Login a user.
 - [ ] GET /users/profile: Retrieve user profile information.
 - [ ] PUT /users/profile: Update user profile information.
+### Auth Routes
+- [ ] POST /auth/register: Register a new user.
+- [ ] POST /auth/login: Login a user.
 ### Cart Routes:
 - [ ] GET /cart: Retrieve the items in the user's cart.
 - [ ] POST /cart/add: Add a product to the user's cart.
